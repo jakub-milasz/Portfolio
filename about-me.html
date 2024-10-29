@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="Jakub Milasz, portfolio, web development, programming, data analysis">
+  <meta name="description" content="Jakub Milasz's portfolio with projects and skills">
+  <meta name="author" content="Jakub Milasz">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Jakub Milasz - about me</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon.png">
+  <style>
+    @media screen and (min-width: 768px){
+      .menu__items li:nth-child(4){
+        border-bottom: 0.2em solid var(--light-gray);
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav class="menu">
+    <h1>Jakub Milasz</h1>
+    <ul class="menu__items">
+      <li><a class="menu__link" href="index.html">Home</a></li>
+      <li><a class="menu__link" href="projects.html">Projects</a></li>
+      <li><a class="menu__link" href="skills.html">Skills</a></li>
+      <li><a class="menu__link" href="about-me.html">About me</a></li>
+    </ul>
+    <button class="burger">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </button>
+  </nav>
+  <main class="main__about-me">
+    <div class="about-me">
+      <p>I'm a second-year student of Engineering and Data Analysis at AGH UST in Cracow. 
+        <p>During my studies,
+        I have learnt very important things about Data Science, programming and web development. I have basics
+        of programming languages, such as Python, Java, C++ and R. I'm also familiar with SQL, HTML, CSS and JavaScript.
+        Apart from that, I have finished a course on Java led by AGH IT Institute. Polish is my native language. I'm also
+        fluent in English and communicative in German.</p>
+        <p>I'm very motivated to gain experience. I can work efficiently in a group and on my own. My main benefits are
+          well-organised my workplace and learning new things quickly. I'm also open to new challenges. 
+        </p>
+      <!-- <img src="img/zdjecie.png" alt="Profile picture" class="photo"> soon -->
+      <div class="contact">
+        <ul>
+          <li><a href="tel:+48693811064"><img src="img/phone.png" alt="phone icon"></a>693 811 064</li>
+          <li><a href="mailto: jakubmilasz@gmail.com"><img src="img/email.png" alt="email icon"></a>jakubmilasz@gmail.com</li>
+          <li><a href="https://github.com/jakub-milasz" target="_blank"><img src="img/git.png" alt="github icon"></a>https://github.com/jakub-milasz</li>
+        </ul>
+      </div>
+    </div>
+    <div class="cv">
+      <h2>Download my CV</h2>
+      <p>Here you can download my CV in PDF format.</p>
+      <a href="Jakub_Milasz_CV.pdf" download>
+        <button class="cv__button">Download CV</button>
+      </a>
+    </div> 
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
