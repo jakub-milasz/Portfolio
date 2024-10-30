@@ -1,6 +1,6 @@
 # My portfolio
 
-This is a page that I created for myself. It is a simple page with the most important information abuot me. The page is responsive and contains some animations.
+This is a page that I created for myself. It is a simple page with the most important information about me. The page is responsive and contains some animations.
 
 My portfolio has four sections:
 
