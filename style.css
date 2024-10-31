@@ -15,9 +15,10 @@
 html{
   font-size: 10px;
   overflow-x: hidden;
-  max-width: 1500px;
+  /* max-width: 1500px; */
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
+  position: relative;
 }
 
 body{
@@ -308,6 +309,8 @@ footer{
   gap: 2em;
   background-color: var(--blue);
   padding: 2em;
+  position: absolute;
+  bottom: 0;
 }
 
 .cv h2{
@@ -512,6 +515,10 @@ footer{
 
 @media screen and (min-width: 768px) {
 
+  html{
+    height: 100%;
+  }
+
   /* Nav styling */
 
   .menu__items{
@@ -622,4 +629,121 @@ footer{
     font-size: 1.5em;
     text-align: left;
   }
+}
+
+@media screen and (min-width: 1500px) {
+
+  html{
+    font-size: 14px;
+    overflow-x: hidden;
+    /* max-width: 2100px; */
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Nav styling */
+
+  .menu__items{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 55%;
+    justify-content: space-around;
+    position: static;
+  }
+
+  .menu__items.active{
+    height: 0vh;
+    transition: none;
+  }
+
+  .menu__link{
+    display: flex;
+    color: white;
+    font-size: 1.7rem;
+  }
+
+  /* Burger styling */
+
+  .burger{
+    display: none;
+  }
+
+  /* Index styling */
+
+  .label{
+    width: 50%;
+  }
+
+
+  /* Skills styling */
+
+  .skills__container{
+    grid-template-columns: repeat(6, 1fr);
+    width: 80%;
+  }
+
+  .description{
+    font-size: 1.3em;
+  }
+
+  .skills__img{
+    width: 104px;
+    height: 104px;
+  }
+
+  .skills__img.rotate{
+    transform: rotate(360deg);
+  }
+
+  /* About me styling */
+
+  .about-me{
+    width: 70%;
+  }
+
+  .about-me ul li img{
+    width: 35px;
+    height: 35px;
+  }
+
+  /* Projects styling */
+
+  .box-container{
+    padding: 10px 50px;
+    width: 50%;
+  }
+
+  .text-box{
+    font-size: 1.7em;
+    transition: .4s linear;
+  }
+
+  .left-container{
+    left: 0;
+  }
+
+  .left-container::after{
+    right: 0;
+  }
+
+  .right-container{
+    left: 50%;
+  }
+
+  .right-container::after{
+    left: 0;
+  }
+
+  .timeline::after{
+    left: 50%;
+  }
+
+  .end{
+    font-size: 1.5em;
+    text-align: left;
+  }
+  
+
 }
