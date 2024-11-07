@@ -27,6 +27,7 @@ body{
 main{
   animation: fadeIn 2s;
   font-family: 'Times New Roman', Times, serif;
+  height: 100vh;
 }
 
 /* Nav styling */
@@ -125,14 +126,17 @@ nav h1{
 .main__index{
   width: 100%;
   margin: 0 auto;
-  display: inline-block;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .label{
   width: 70%;
   margin: 10em auto 0;
   color: var(--blue);
+  text-align: center;
+  flex-grow: 1;
 }
 
 .label h1{
@@ -190,11 +194,8 @@ footer{
   color: var(--blue);
   font-size: 1.8em;
   padding: .3em;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
   width: 100%;
+  text-align: center;
 }
 
 
@@ -260,6 +261,7 @@ footer{
   align-items: center;
   gap: 2em;
   margin-top: 2em;
+  flex-grow: 1;
 }
 
 .about-me p{
