@@ -128,7 +128,6 @@ nav h1{
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .label{
@@ -347,6 +346,13 @@ footer{
 }
 
 /* Projects styling */
+
+.main__projects{
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+}
 
 .timeline{
   position: relative;
