@@ -9,17 +9,3 @@ burgerIcon.addEventListener('click', () => {
   });
   burgerIcon.classList.toggle('active');
 });
-
-for(let i = 1; i<=8; i++){
-  const icon = document.querySelector(`.i${i}`);
-  const desc = document.querySelector(`.desc${i}`);
-  icon.addEventListener('click', () => {
-    if(desc.style.opacity == 1){
-      desc.style.opacity = 0;
-    }
-    else{
-      desc.style.opacity = 1;
-    }
-    icon.classList.toggle('rotate');
-  });
-}

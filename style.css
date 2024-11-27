@@ -210,7 +210,7 @@ footer{
   width: 70%;
   margin: 3em auto;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 4em;
 }
 
@@ -566,7 +566,7 @@ footer{
   /* Skills styling */
 
   .skills__container{
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     width: 80%;
   }
 
@@ -686,7 +686,7 @@ footer{
   /* Skills styling */
 
   .skills__container{
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     width: 80%;
   }
 
