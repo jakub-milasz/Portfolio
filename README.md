@@ -13,7 +13,8 @@ My portfolio has four sections:
 **Projects** - description of my projects.
 
 
-![Zrzut ekranu 2024-10-29 184613](https://github.com/user-attachments/assets/1d6f186d-8243-43b7-8988-e25e81302445)
+![Zrzut ekranu 2025-02-09 213528](https://github.com/user-attachments/assets/25f74c7f-796a-40fe-aaaf-28ec3d5fddce)
+
 
 
 **Skills** - here I described my current skills.
@@ -26,4 +27,4 @@ My portfolio has four sections:
 **About me** - longer description about me and personal data and CV to download.
 
 
-![Zrzut ekranu 2024-10-29 184735](https://github.com/user-attachments/assets/fd508a3a-0809-4fa7-a8fe-23b463210dd0)
+![Zrzut ekranu 2025-02-09 213711](https://github.com/user-attachments/assets/83e0b1a0-8434-4796-bd40-29e36d107550)
