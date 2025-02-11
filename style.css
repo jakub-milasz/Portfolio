@@ -480,6 +480,10 @@ footer{
   animation-delay: 6s;
 }
 
+.box-container:nth-child(8){
+  animation-delay: 7s;
+}
+
 @keyframes moveLine{
   0%{
     height: 0;
